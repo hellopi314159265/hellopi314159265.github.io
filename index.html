@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Project for HTML/CSS</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+  <title> My website for Computer Science grade
+  </title>
+</head>
+<body>
+    <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Dropdown Menu For MATEO'S WEBSITE</button>
+      
+  <div id="myDropdown" class="dropdown-content">
+    <a href="http://codepen.io/lolz314159265/pen/KgrqbZ">History</a>
+    <a href="">Ranks and Awards in Boy Scouts</a>
+    <a href="#contact">Contact</a>
+  </div>
+      
+  <h3> Before we start...<a href="http://www.hongkiat.com/blog/sites-to-learn-coding-online/">here</a> is a cool website to look at to learn to code better </h3>
+  
+  <h2> <a href ="http://oldhatcreative.com/sites/default/files/styles/blog-full-preview/public/blog-featured-images/A_long_time_ago.png?itok=GC0cDPZt"> Introduction </a> </h2>
+  
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  
+      
+</body>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
